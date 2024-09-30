@@ -1,0 +1,172 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #000;
+    height: 100vh;
+    position: relative;
+    padding-top: 80px;
+}
+
+main {
+    padding-inline: 10px;
+}
+
+.play-btn {
+    height: 60px;
+    width: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #9e9c9c3d;
+    border-radius: 50%;
+}
+
+.bg-dark, .offcanvas {
+    background-color: #000 !important;
+    border-bottom: 1px solid #ffffff3f;
+}
+
+.my-card {
+    margin-block: 30px;
+    border: 1px solid #ffffff3f;
+    border-radius: 0 0 10px 10px;
+}
+
+.img-container {
+    position: relative;
+    width: 100%;
+    height: 260px;
+    background: url(./pexels-travelers_tw-1445512897-28176070.jpg);
+    background-position: center;
+    background-size: cover;
+    border-bottom: 1px solid #868282d2;
+    z-index: -99;
+}
+
+.overlay {
+    height: 100%;
+    width: 100%;
+    background-color: #0000009f;
+    backdrop-filter: blur(5px);
+}
+
+.play-btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+i {
+    margin-inline: 5px;
+}
+
+span {
+    color: #fff;
+}
+
+.views {
+    margin-inline-end: 8px;
+}
+
+.duration {
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    color: #fff;
+    background-color: rgba(85, 84, 84, 0.247);
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.caption {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10px;
+}
+
+.my-card:first-child {
+    margin-top: 0;
+}
+
+.modal-container {
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    backdrop-filter: blur(10px);
+    display: none;
+}
+
+.myModal {
+    text-align: center;
+    padding: 40px 30px;
+    border: 1px solid #ffffff5e;
+    border-radius: 20px;
+    backdrop-filter: blur(30px);
+    background-color: #000000b2;
+}
+
+.modal-container h1 {
+    font-size: 2rem;
+    color: #fff;
+}
+
+.modal-container input {
+    color: #fff;
+}
+
+.modal-container input {
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: 1px solid #ffffff5e;
+    background-color: #000;
+    display: block;
+    margin: auto;
+    margin-block: 15px;
+}
+
+.modal-container button {
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+    background-color: #fff;
+    color: #000;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+footer {
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    
+}
+
+footer p {
+    color: #fff !important;
+    font-size: 14px;
+}
+
+footer img {
+    width: 50px;
+}
